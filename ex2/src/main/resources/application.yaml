@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/
+    username: bootuser
+    password: bootuser12!@
+
+    jpa:
+      hibernate:
+        ddl-auto: none
+    jpa.show-sql: true
+    jpa.properties.hibernate.format_sql: true

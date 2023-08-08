@@ -9,12 +9,12 @@ class SampleTests {
 
     private Restaurant restaurant;
 
+
     @Test
     public void test() {
         restaurant = new Restaurant();
         System.out.println("================");
         System.out.println(restaurant);
-        restaurant.test();
         System.out.println("================");
     }
 }
