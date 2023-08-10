@@ -8,6 +8,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.Query;
+import org.zerock.ex2.dto.SampleDTO;
 import org.zerock.ex2.entity.Memo;
 
 import java.util.ArrayList;
